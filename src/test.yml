@@ -31,5 +31,5 @@ jobs:
         uses: actions/deploy-to-github-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: gh-pages # Adjust branch name if needed
+          branch: main
           push_entire_repo: true
