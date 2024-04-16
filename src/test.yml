@@ -30,8 +30,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Build website
-        run: |
-          npm run build
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-to-github-pages@v4
