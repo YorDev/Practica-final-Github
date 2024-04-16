@@ -30,6 +30,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-to-github-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.TOKEN }}
           branch: main
           push_entire_repo: true
