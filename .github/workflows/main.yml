@@ -32,9 +32,9 @@ jobs:
       - name: Build website
         run: npm run build
 
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
-        with:
-          github_token: ${{ secrets.TOKEN }}
-          branch: main
-          push_entire_repo: true
+      # - name: Deploy to GitHub Pages
+      #   uses: actions/deploy-pages@v1
+      #   with:
+      #     github_token: ${{ secrets.TOKEN }}
+      #     branch: main
+      #     push_entire_repo: true
