@@ -1,6 +1,8 @@
+const path = require("path");
+
 module.exports = {
   output: {
     filename: "index.html",
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve("/src/index.html", "dist"),
   },
 };
